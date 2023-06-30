@@ -7,6 +7,7 @@ from datetime import date
 print('Bem-vindo ao programa de cálculo para o alistamento militar!')
 
 ano_de_nascimento = int(input('Informe o ano de nascimento: '))
+
 idade = date.today().year - ano_de_nascimento
 
 if idade < 18:
