@@ -5,3 +5,5 @@
 # - 25 até 30: Sobrepeso
 # - 30 até 40: Obesidade
 # - Acima de 40: Obesidade Mórbida
+
+# print('Bem-vindo ao programa de cálculo de IMC!')

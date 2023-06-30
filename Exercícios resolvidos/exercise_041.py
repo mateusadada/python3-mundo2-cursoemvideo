@@ -5,3 +5,5 @@
 # - Até 19 anos: JÚNIOR
 # - Até 25 anos: SÊNIOR
 # - Acima de 25 anos: MASTER
+
+# print('Bem-vindo ao programa de cálculo da categoria!')
