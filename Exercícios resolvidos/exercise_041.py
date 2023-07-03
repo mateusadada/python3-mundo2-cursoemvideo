@@ -19,11 +19,11 @@ print(f'\nIdade: \033[33m{idade}\033[m'
 
 if idade <= 9:
     print('MIRIM')
-elif 9 < idade <= 14:
+elif idade <= 14:
     print('INFANTIL')
-elif 14 < idade <= 19:
+elif idade <= 19:
     print('JÚNIOR')
-elif 19 < idade <= 25:
+elif idade <= 25:
     print('SÊNIOR')
 else:
     print('MASTER')
