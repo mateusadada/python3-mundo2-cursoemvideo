@@ -12,7 +12,7 @@ reta3 = float(input('3º reta: '))
 if reta1 + reta2 > reta3 and reta1 + reta3 > reta2 and reta2 + reta3 > reta1:
     print('\n\033[33mÉ possível formar um triângulo ', end='')
 
-    if reta1 != reta2 and reta1 != reta3 and reta2 != reta3:
+    if reta1 != reta2 != reta3 != reta1:
         print('ESCALENO')
 
     elif reta1 == reta2 != reta3 or reta1 == reta3 != reta2 or reta2 == reta3 != reta1:
