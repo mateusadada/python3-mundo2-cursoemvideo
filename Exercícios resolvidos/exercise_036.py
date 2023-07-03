@@ -8,11 +8,11 @@ valor_da_casa = float(input('Valor da casa: R$ '))
 salario = float(input('Salário do comprador: R$ '))
 anos = int(input('Quantos anos que vai ser pago: '))
 
-prestacao_mensal = valor_da_casa / anos
+prestacao_mensal = valor_da_casa / (anos * 12)
 
 if prestacao_mensal / salario > 0.3:
-    print(f'\n\033[31mEmpréstimo NEGADO!\033[m Valor da prestação mensal acima do limite '
+    print(f'\n\033[31mEmpréstimo NEGADO!\033[m Valor da prestação mensal (R$ {prestacao_mensal:.2f}) acima do limite '
           f'({prestacao_mensal / salario * 100:.1f}%)')
 else:
-    print(f'\n\033[32mEmpréstimo APROVADO!\033[m Valor da prestação mensal abaixo do limite '
+    print(f'\n\033[32mEmpréstimo APROVADO!\033[m Valor da prestação mensal (R$ {prestacao_mensal:.2f}) abaixo do limite '
           f'({prestacao_mensal / salario * 100:.1f}%)')
