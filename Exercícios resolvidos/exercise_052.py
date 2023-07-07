@@ -5,11 +5,11 @@ print('Bem-vindo ao programa que verifica se um número é primo!')
 numero = int(input('Digite um número natural: '))
 
 if numero < 2:
-    print('\n\33[31mInválido! O número precisa ser acima de 1!')
+    print('\n\033[31mInválido! O número precisa ser acima de 1!')
 else:
     for i in range(2, numero):
         if numero % i == 0:
-            print(f'\n\33[33mO número {numero} não é primo!')
+            print(f'\n\033[33mO número {numero} não é primo!')
             break
     else:
-        print(f'\n\33[32mO número {numero} é primo!')
+        print(f'\n\033[32mO número {numero} é primo!')

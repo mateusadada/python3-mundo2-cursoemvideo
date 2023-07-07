@@ -4,7 +4,7 @@ print('Bem-vindo ao programa de cálculo da tabuada de um número qualquer!')
 
 numero = int(input('Digite um número: '))
 
-print(f'\n\33[33m*** TABUADA DO {numero} ***\n')
+print(f'\n\033[33m*** TABUADA DO {numero} ***\n')
 
 for i in range(1, 11):
     print(f'{numero} x {i} = {numero * i}')

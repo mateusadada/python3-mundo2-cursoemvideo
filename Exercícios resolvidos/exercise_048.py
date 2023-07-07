@@ -9,4 +9,4 @@ for i in range(1, 501):
     if i % 3 == 0:
         total += i
 
-print(f'\n\33[33mTotal: {total}')
+print(f'\n\033[33mTotal: {total}')

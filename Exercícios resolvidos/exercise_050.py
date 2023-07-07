@@ -11,4 +11,4 @@ for i in range(6):
     if numero % 2 == 0:
         soma_pares += numero
 
-print(f'\n\33[33mSoma dos números pares: {soma_pares}')
+print(f'\n\033[33mSoma dos números pares: {soma_pares}')

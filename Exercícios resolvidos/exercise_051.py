@@ -9,4 +9,4 @@ razao = int(input('Razão: '))
 print()
 
 for i in range(10):
-    print(f'{i + 1}º termo: \33[33m{primeiro_termo + (razao * i)}\33[m')
+    print(f'{i + 1}º termo: \033[33m{primeiro_termo + (razao * i)}\033[m')
