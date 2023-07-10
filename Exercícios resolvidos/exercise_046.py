@@ -4,11 +4,11 @@
 from time import sleep
 
 print('Bem-vindo ao programa de contagem regressiva de fogos de artifício!'
-      '\n\n\033[32m*** CONTAGEM REGRESSIVA ***\n')
+      '\n\n\033[32m*** CONTAGEM REGRESSIVA ***\n\033[33m')
 
 for i in range(10, -1, -1):
     sleep(1)
-    print('\033[33m', i)
+    print(i)
 
 sleep(1)
 print('\n\033[31mESTOURAR OS FOGOS!!!')
