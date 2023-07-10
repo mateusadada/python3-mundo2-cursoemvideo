@@ -2,6 +2,5 @@
 
 print('Bem-vindo ao programa que exibe todos os números pares entre 1 e 50!\n\033[33m')
 
-for i in range(1, 51):
-    if i % 2 == 0:
-        print(i, end=', ')
+for i in range(2, 51, 2):
+    print(i, end=' ')
