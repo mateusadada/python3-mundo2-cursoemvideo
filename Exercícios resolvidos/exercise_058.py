@@ -14,7 +14,7 @@ while 0 > jogador or jogador > 10:
 
 
 while jogador != computador:
-    jogador = int(input('\033[33mVocê errou! Tente novamente [0 até 10]: \033[m'))
+    jogador = int(input('Você errou! Tente novamente [0 até 10]: '))
 
     while 0 > jogador or jogador > 10:
         jogador = int(input('\033[31mOpção inválida! Tente novamente [0 até 10]: \033[m'))
