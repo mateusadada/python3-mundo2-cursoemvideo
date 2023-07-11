@@ -2,13 +2,10 @@
 
 print('Bem-vindo ao programa de cálculo do maior e menor peso de cinco pessoas!')
 
-flag = 0
-
 for i in range(5):
     peso = float(input(f'{i + 1}º peso: '))
 
-    if flag == 0:
-        flag = 1
+    if i == 0:
         maior = peso
         menor = peso
     else:
