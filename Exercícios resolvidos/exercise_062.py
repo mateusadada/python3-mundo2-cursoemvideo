@@ -8,14 +8,18 @@ print('Bem-vindo ao programa de cálculo de uma PA!')
 primeiro_termo = int(input('Digite o 1º termo de uma PA: '))
 razao = int(input('Razão: '))
 
-contador = 0
+contador_termos = 0
 quantidade_termos = 1
 
 while quantidade_termos != 0:
+    contador = 0
     quantidade_termos = int(input('Mostrar quantos termos (0 p/ sair)? '))
 
     while contador < quantidade_termos:
-        print(f'{contador + 1}º termo: \033[33m{primeiro_termo + (razao * contador)}\033[m')
+        print(f'{contador_termos + 1}º termo: \033[33m{primeiro_termo + (razao * contador_termos)}\033[m')
         contador += 1
+        contador_termos += 1
 
     print()
+
+print('\033[33mSaindo... Até logo...')
