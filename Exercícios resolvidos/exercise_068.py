@@ -12,7 +12,10 @@ while True:
     computador = str(choice(['PAR', 'ÍMPAR']))
     jogador = str(input('\nEscolha PAR ou ÍMPAR: ')).strip().upper()
 
-    if jogador in 'PARÍMPARIMPAR':
+    if jogador == 'IMPAR':
+        jogador = 'ÍMPAR'
+
+    if jogador in 'PARÍMPAR':
         if jogador == computador:
             print(f'\033[32mParabéns! Você acertou. Um ponto para você :)\033[m')
             total_vitorias += 1
