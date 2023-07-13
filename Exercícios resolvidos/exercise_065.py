@@ -7,10 +7,7 @@ from time import sleep
 print('Bem-vindo ao programa de cálculo da média de N números, além do maior e menor valores lidos!', end='')
 
 continuar = ''
-total = 0
-contador = 0
-maior = 0
-menor = 0
+total = contador = maior = menor = 0
 
 while continuar != 'N':
     numero = int(input('\nDigite um número inteiro: '))

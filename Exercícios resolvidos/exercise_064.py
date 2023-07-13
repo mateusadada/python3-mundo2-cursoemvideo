@@ -4,9 +4,7 @@
 
 print('Bem-vindo ao programa de cálculo da soma de N números!')
 
-numero = 0
-total = 0
-contador = 0
+numero = total = contador = 0
 
 while numero != 999:
     numero = int(input('Digite um número inteiro (999 p/ sair): '))

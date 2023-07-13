@@ -6,10 +6,8 @@ print('Bem-vindo ao programa de cálculo de uma Sequência de Fibonacci!')
 
 sequencia = int(input('Digite a quantidade de elementos para listar: '))
 
-numero1 = 0
+numero1 = contador = 0
 numero2 = 1
-
-contador = 0
 
 print('\n\033[33m0', end=' - ')
 
