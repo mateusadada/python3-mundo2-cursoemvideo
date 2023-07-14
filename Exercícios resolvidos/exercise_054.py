@@ -5,8 +5,7 @@ from datetime import date
 
 print('Bem-vindo ao programa de cálculo de maioridade (>= 18) de sete pessoas!')
 
-total_maioridade = 0
-total_minoridade = 0
+total_maioridade = total_minoridade = 0
 
 for i in range(7):
     ano_de_nascimento = int(input(f'{i + 1}º pessoa: '))
