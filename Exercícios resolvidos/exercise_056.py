@@ -3,11 +3,7 @@
 
 print('Bem-vindo ao programa de cálculo da média de idade de um grupo de 4 pessoas!', end='')
 
-total_idade = 0
-flag = 0
-idade_mulher_menos_20 = 0
-maior_idade_homem = None
-nome_mais_velho_homem = None
+total_idade = flag = idade_mulher_menos_20 = maior_idade_homem = nome_mais_velho_homem = 0
 
 for i in range(4):
     nome = str(input(f'\nNome da {i + 1}º pessoa: ')).strip()
