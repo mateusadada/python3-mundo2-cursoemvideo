@@ -33,6 +33,8 @@ Used during the evolution of exercises.
 
 - While
 
+- Modules
+
 ## 📋 Prerequisites
 
 You need to have the Python language on your machine along with an IDE (Integrated Development Environment) or a website that can run the code.
