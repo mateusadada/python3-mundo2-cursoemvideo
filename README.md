@@ -21,7 +21,7 @@
 
 ## 🚀 Starting
 
-This repository contains all the solved exercises from [Python 3 - Mundo 2](https://www.cursoemvideo.com/curso/python-3-mundo-2/) course taught by [Curso em Vídeo](https://www.cursoemvideo.com/). The exercises are more complex than the previous module. It was fundamental to improve my knowledge in this language and it also helped with my Bachelor's degree in Information Systems at [UDESC](https://www.udesc.br/).
+This repository contains all the solved exercises from [Python 3 - Mundo 2](https://www.cursoemvideo.com/curso/python-3-mundo-2/) course taught by [Curso em Vídeo](https://www.cursoemvideo.com/). The exercises are more complex than the previous module. It was fundamental to improve my knowledge in this language and it also helped with my Bachelor's Degree in Information Systems at [UDESC](https://www.udesc.br/).
 
 ## 📚 Features
 
