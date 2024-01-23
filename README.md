@@ -15,24 +15,21 @@
 - [Starting](#-starting)
 - [Features](#-features)
 - [Prerequisites](#-prerequisites)
-- [Built with](#%EF%B8%8F-built-with)
-- [Author](#%EF%B8%8F-author)
+- [Built with](#️-built-with)
+- [Author](#️-author)
 - [License](#-license)
 
 ## 🚀 Starting
 
-This repository contains all the solved exercises from [Python 3 - Mundo 2](https://www.cursoemvideo.com/curso/python-3-mundo-2/) course taught by [Curso em Vídeo](https://www.cursoemvideo.com/). The exercises are more complex than the previous module. It was fundamental to improve my knowledge in this language and it also helped with my Bachelor's Degree in Information Systems at [UDESC](https://www.udesc.br/).
+This repository contains all the solved exercises from the [Python 3 - Mundo 2 course](https://www.cursoemvideo.com/curso/python-3-mundo-2/) taught by [Curso em Vídeo](https://www.cursoemvideo.com/). The exercises are more complex than the previous module. It was fundamental to improve my knowledge in this language and it also helped with my Bachelor's Degree in Information Systems at [UDESC](https://www.udesc.br/).
 
 ## 📚 Features
 
 Used during the evolution of exercises:
 
 - Conditions (if, elif and else)
-
 - For
-
 - While
-
 - Modules
 
 ## 📋 Prerequisites
